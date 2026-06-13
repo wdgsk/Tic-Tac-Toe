@@ -100,7 +100,6 @@ int main()
 	int playerOpt;
 	for (int i = 0; (i < 9) && win(board) == 0; ++i) {
 		if (((option + i) % 2) == 0) {
-			// /printf("\tComp\n");
 			computerMove(board);
 		} else {
 			while (1) {
